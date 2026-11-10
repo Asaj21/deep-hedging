@@ -1,0 +1,36 @@
+{
+  "phase": 0,
+  "timestamp_utc": "2026-10-26T04:18:40+00:00",
+  "seed": 42,
+  "versions": {
+    "python": "3.13.5",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "pandas": "3.0.6",
+    "matplotlib": "3.11.2",
+    "torch": "2.14.1"
+  },
+  "gate_parity": {
+    "pass": true,
+    "max_price_gap": 2.842170943040401e-14,
+    "max_delta_gap": 1.1102230246251565e-16,
+    "tolerance": 1e-12,
+    "n_combinations": 672
+  },
+  "gate_monte_carlo": {
+    "pass": true,
+    "max_abs_z": 1.9057251450913577,
+    "z_threshold": 3.635188198352059,
+    "family_alpha": 0.01,
+    "n_tests": 36,
+    "paths_per_test": 200000
+  },
+  "gate_hull": {
+    "pass": true,
+    "call": 1.1166414565589438,
+    "put": 1.1166414565589438,
+    "published": 1.12,
+    "tolerance": 0.005
+  },
+  "phase0_pass": true
+}

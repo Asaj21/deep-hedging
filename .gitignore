@@ -1,0 +1,13 @@
+# Python virtual environment: rebuilt from requirements.txt, never committed
+.venv/
+
+# Python and Jupyter generated files
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# PyCharm personal settings
+.idea/
+
+# macOS folder metadata
+.DS_Store
